@@ -91,7 +91,7 @@ pipeline {
     
       steps{
            
-       waitForQualityGate abortPipeline: true
+       waitForQualityGate abortPipeline: false
            
          }
         
